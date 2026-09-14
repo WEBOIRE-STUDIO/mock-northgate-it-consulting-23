@@ -3,9 +3,9 @@
   "heroVariant": "full-bleed",
   "serviceLayout": "bento-grid",
   "ctaStyle": "solid",
-  "paletteSeed": 4,
-  "heroSeed": 4,
-  "copySeed": 4,
+  "paletteSeed": 9,
+  "heroSeed": 9,
+  "copySeed": 9,
   "visualSystem": {
     "key": "clean-tech-glass",
     "label": "Clean Tech / Glass Accents",
@@ -25,7 +25,6 @@
     "label": "WebGL Abstract",
     "techniques": [
       "particle-field",
-      "depth-layers",
       "cursor-light"
     ],
     "selectionReason": "explicitly forced"
