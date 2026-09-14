@@ -3,9 +3,9 @@
   "heroVariant": "full-bleed",
   "serviceLayout": "bento-grid",
   "ctaStyle": "solid",
-  "paletteSeed": 2,
-  "heroSeed": 2,
-  "copySeed": 2,
+  "paletteSeed": 4,
+  "heroSeed": 4,
+  "copySeed": 4,
   "visualSystem": {
     "key": "clean-tech-glass",
     "label": "Clean Tech / Glass Accents",
@@ -19,6 +19,16 @@
     "label": "Bento Stagger + Card Depth",
     "selectionReason": "visual system default (clean-tech-glass → bento-stagger-depth)",
     "contentGated": false
+  },
+  "experimentalPreset": {
+    "key": "webgl-abstract",
+    "label": "WebGL Abstract",
+    "techniques": [
+      "particle-field",
+      "depth-layers",
+      "cursor-light"
+    ],
+    "selectionReason": "explicitly forced"
   },
   "selectionSignals": {
     "servicesCount": 5,
@@ -59,6 +69,9 @@
     "motion_preset_content_gated": false,
     "services_count": 5,
     "image_pool_count": 2,
-    "has_relevant_imagery": false
+    "has_relevant_imagery": false,
+    "experimental_preset": "webgl-abstract",
+    "experimental_preset_label": "WebGL Abstract",
+    "experimental_preset_reason": "explicitly forced"
   }
 }
