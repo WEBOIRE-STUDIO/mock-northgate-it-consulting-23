@@ -2,10 +2,10 @@
   "templateKey": "professional_services",
   "heroVariant": "full-bleed",
   "serviceLayout": "bento-grid",
-  "ctaStyle": "gradient",
-  "paletteSeed": 1,
-  "heroSeed": 1,
-  "copySeed": 1,
+  "ctaStyle": "solid",
+  "paletteSeed": 2,
+  "heroSeed": 2,
+  "copySeed": 2,
   "visualSystem": {
     "key": "clean-tech-glass",
     "label": "Clean Tech / Glass Accents",
@@ -23,31 +23,32 @@
   "selectionSignals": {
     "servicesCount": 5,
     "imagePoolCount": 2,
-    "hasRelevantImagery": true
+    "hasRelevantImagery": false
   },
   "resolvedVisualDirection": {
-    "palette_source": "design_direction",
-    "palette_key": "warm-terracotta",
+    "palette_source": "visual_system_locked",
+    "palette_key": "tech-slate",
     "palette": {
-      "primary": "#b5502e",
-      "primaryDark": "#7a3620",
-      "accent": "#e0a458",
-      "textDark": "#241610",
+      "key": "tech-slate",
+      "primary": "#1e293b",
+      "primaryDark": "#0f172a",
+      "accent": "#38bdf8",
+      "textDark": "#0f172a",
       "textOnPrimary": "#ffffff",
-      "bgLight": "#fdf7f2",
-      "bgAlt": "#f7e9dc",
-      "border": "#ecd3bd",
-      "radius": "8px",
-      "ctaStyle": "gradient",
-      "headingFont": "Fraunces",
+      "bgLight": "#f8fafc",
+      "bgAlt": "#eef2f7",
+      "border": "#dbe3ee",
+      "radius": "14px",
+      "ctaStyle": "solid",
+      "headingFont": "Manrope",
       "bodyFont": "Inter",
-      "googleFonts": "Fraunces:wght@600;700;800|Inter:wght@400;500;600"
+      "googleFonts": "Manrope:wght@600;700;800|Inter:wght@400;500;600"
     },
     "hero_variant": "full-bleed",
     "section_style": "boxed",
-    "image_category": "engineering",
+    "image_category": "general",
     "matched_keywords": [
-      "rust"
+      "trustworthy"
     ],
     "visual_system": "clean-tech-glass",
     "visual_system_label": "Clean Tech / Glass Accents",
@@ -58,6 +59,6 @@
     "motion_preset_content_gated": false,
     "services_count": 5,
     "image_pool_count": 2,
-    "has_relevant_imagery": true
+    "has_relevant_imagery": false
   }
 }
