@@ -1,0 +1,63 @@
+{
+  "templateKey": "professional_services",
+  "heroVariant": "full-bleed",
+  "serviceLayout": "bento-grid",
+  "ctaStyle": "gradient",
+  "paletteSeed": 1,
+  "heroSeed": 1,
+  "copySeed": 1,
+  "visualSystem": {
+    "key": "clean-tech-glass",
+    "label": "Clean Tech / Glass Accents",
+    "dark": false,
+    "cardStyle": "glass-light",
+    "ctaLayout": "bento-cta",
+    "selectionReason": "explicitly forced"
+  },
+  "motionPreset": {
+    "key": "bento-stagger-depth",
+    "label": "Bento Stagger + Card Depth",
+    "selectionReason": "visual system default (clean-tech-glass → bento-stagger-depth)",
+    "contentGated": false
+  },
+  "selectionSignals": {
+    "servicesCount": 5,
+    "imagePoolCount": 2,
+    "hasRelevantImagery": true
+  },
+  "resolvedVisualDirection": {
+    "palette_source": "design_direction",
+    "palette_key": "warm-terracotta",
+    "palette": {
+      "primary": "#b5502e",
+      "primaryDark": "#7a3620",
+      "accent": "#e0a458",
+      "textDark": "#241610",
+      "textOnPrimary": "#ffffff",
+      "bgLight": "#fdf7f2",
+      "bgAlt": "#f7e9dc",
+      "border": "#ecd3bd",
+      "radius": "8px",
+      "ctaStyle": "gradient",
+      "headingFont": "Fraunces",
+      "bodyFont": "Inter",
+      "googleFonts": "Fraunces:wght@600;700;800|Inter:wght@400;500;600"
+    },
+    "hero_variant": "full-bleed",
+    "section_style": "boxed",
+    "image_category": "engineering",
+    "matched_keywords": [
+      "rust"
+    ],
+    "visual_system": "clean-tech-glass",
+    "visual_system_label": "Clean Tech / Glass Accents",
+    "visual_system_reason": "explicitly forced",
+    "motion_preset": "bento-stagger-depth",
+    "motion_preset_label": "Bento Stagger + Card Depth",
+    "motion_preset_reason": "visual system default (clean-tech-glass → bento-stagger-depth)",
+    "motion_preset_content_gated": false,
+    "services_count": 5,
+    "image_pool_count": 2,
+    "has_relevant_imagery": true
+  }
+}
