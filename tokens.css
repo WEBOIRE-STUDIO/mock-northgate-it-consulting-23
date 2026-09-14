@@ -1,13 +1,13 @@
 :root {
-  --primary: #b5502e;
-  --primary-dark: #7a3620;
-  --accent: #e0a458;
-  --text-dark: #241610;
+  --primary: #1e293b;
+  --primary-dark: #0f172a;
+  --accent: #38bdf8;
+  --text-dark: #0f172a;
   --text-on-primary: #ffffff;
-  --bg-light: #fdf7f2;
-  --bg-alt: #f7e9dc;
-  --border: #ecd3bd;
-  --radius: 8px;
-  --font-heading: 'Fraunces';
+  --bg-light: #f8fafc;
+  --bg-alt: #eef2f7;
+  --border: #dbe3ee;
+  --radius: 14px;
+  --font-heading: 'Manrope';
   --font-body: 'Inter';
 }
